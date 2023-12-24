@@ -8,7 +8,7 @@ const startOver = document.querySelector('.resultParas');
 
 const p = document.createElement('p');
 let prevGuess = [];
-let numGuess = 0;
+let numGuess = 1;
 let playGame = true;
 
 if(playGame){
@@ -76,9 +76,9 @@ function newGame(){
     newGameButton.addEventListener('click', function (e) {
       random = parseInt(Math.random() * 100 + 1);
       prevGuess = [];
-      numGuess = 0;
+      numGuess = 1;
       prev.innerHTML = '';
-      rem.innerHTML = 10 - numGuess;
+      rem.innerHTML = 11 - numGuess;
       input.removeAttribute('disabled');
       startOver.removeChild(p);
   
