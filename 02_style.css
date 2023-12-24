@@ -5,6 +5,7 @@ body{
 
 nav {
     display: flex;
+    font-size: 20px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -19,7 +20,7 @@ nav {
     min-width: 9rem;
     padding: 0.5rem;
     border-radius: 0.2rem;
-    border: solid 1px rgb(22, 22, 22);
+    border: solid 1px rgb(8, 8, 8);
     text-align: center;
     text-decoration: none;
     color: #f0f5f6;
@@ -64,7 +65,7 @@ nav {
   color: #fff;
   width: 130px;
   height: 30px;
-  border-radius: 20px;
+  border-radius: 10px;
   font-size: 16px;
 }
 
@@ -74,5 +75,6 @@ h1{
 p{
     font-size: 20px;
     text-align: center;
+    color: #fff;
 }
 
